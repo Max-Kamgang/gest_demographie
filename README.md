@@ -1,3 +1,4 @@
+Colaborateurs : @Max-Kamgang , @KamgaHonore , @Tiakoyann 
 Ce projet avait pour objectif d’estimer la croissance urbaine de la ville de Bafoussam en utilisant des modèles inspirés de la suite de Fibonacci et de ses variantes dynamiques. Grâce à la calibration sur des données réelles (PopulationStat, 2005–2025), nous avons pu relier la logique de croissance récursive à un phénomène démographique concret.
 
 Les résultats montrent que : • Le modèle Linear-Fib reproduit correctement la tendance générale de la population urbaine, tout en présentant quelques écarts ponctuels liés à la simplification du modèle. • L’ajout d’un intercept améliore nettement la précision de la régression et la cohérence des prévisions (hausse du R², réduction du MAE et du RMSE). • Le modèle Scaled-Fib accentue la croissance et simule des scénarios d’expansion rapide, tandis que le modèle Dynamique-Cap intègre une saturation plausible à long terme (effet de capacité maximale K).
