@@ -1,0 +1,7 @@
+plt.figure()
+plt.plot(df_fore["year"], df_fore["Y_linear_calibrated"], label="Linear-Fib calibré")
+plt.plot(df_fore["year"], df_fore["Y_scaled"], label="Scaled-Fib")
+plt.plot(df_fore["year"], df_fore["Y_dynamic_cap"], label="Dynamique-cap")
+plt.title("Bafoussam — Scénarios de croissance (Fibonacci)")
+plt.xlabel("Année"); plt.ylabel("Indicateur (population/aire/eau)")
+plt.legend(); plt.show()

@@ -1,0 +1,6 @@
+plt.figure()
+plt.plot(df_fore["year"], df_fore["Y_linear_calibrated"], label="Linear-Fib (calibré)")
+plt.scatter(hist["year"], hist["pop"], label="Historique")
+plt.title("Bafoussam — Historique vs Linear-Fib calibré")
+plt.xlabel("Année"); plt.ylabel("Population (approx)")
+plt.legend(); plt.show()

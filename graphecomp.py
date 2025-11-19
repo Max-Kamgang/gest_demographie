@@ -1,0 +1,6 @@
+plt.figure()
+plt.plot(hist["year"], hist["pred_linear"], label="Prédit (Linear-Fib)", marker="o")
+plt.scatter(hist["year"], hist["pop"], label="Réel (historique)", zorder=3)
+plt.title("Bafoussam — Réel vs Prédit (modèle Linear-Fib calibré)")
+plt.xlabel("Année"); plt.ylabel("Population (hab.)")
+plt.legend(); plt.show()
